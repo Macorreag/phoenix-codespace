@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y postgresql-client && \
     apt-get install -y inotify-tools && \
     apt-get install -y nodejs && \
-    apt-get install -y npm \
+    apt-get install -y npm && \
     apt-get install -y git && \
     mix local.hex --force && \
     mix archive.install hex phx_new ${PHX_VERSION} --force && \
